@@ -1,18 +1,26 @@
+body{
+  font-family: system-ui;
+}
+
 /* Untuk mengatur tampilan ikon */
 .fa {
-  padding: 10px;
-  font-size: 30px;
-  width: 30px;
-  height: 30px;
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  height: 50px;
   text-align: center;
   text-decoration: none;
-  margin: 2px 2px;
+  margin: 2px;
   border-radius: 50%;
+  background-color: white;
+  transition: 0.5s;
 }
 
 /* Mengatur tampilan ikon saat mouse didekatkan*/
 .fa:hover {
-  opacity: 0.7;
+  cursor: pointer;
+  transform: rotateZ(360deg);
+  /* opacity: 0.7; */
 }
 
 /* Mengatur tampilan ikon facebook*/
@@ -41,18 +49,40 @@
 
 /* Mengatur background jumbotron */
 .jumbotron {
-  background-color: #f8f8f8;
+  padding-top: 20vh;
+  background-image: url('mountain_pixabay.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-color: #f8f8f8; */
 }
 
 /* Mengatur warna teks heading */
 h1,
-h4,
-h6 {
-  color: #72ab00;
+h2 {
+  color:#A0522D;
+}
+
+.sansita{
+  font-family: 'Sansita Swashed';
+  /* , cursive; */
 }
 
 /* Mengatur tampilan judul formulir */
 .message {
   padding: 15px;
-  text-align: center;
+  /* text-align: center; */
+}
+
+a{
+  color: #DD4B39;
+}
+
+a:hover{
+  color: #DD4B39;
+  text-decoration: none;
+}
+
+.bootstrap-link:hover{
+  font-size: larger;
 }
