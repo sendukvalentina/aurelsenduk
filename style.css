@@ -50,7 +50,7 @@ body{
 /* Mengatur background jumbotron */
 .jumbotron {
   padding-top: 20vh;
-  background-image: url('mountain_pixabay.png');
+  background-image: url('leaves2_pixabay.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -60,7 +60,11 @@ body{
 /* Mengatur warna teks heading */
 h1,
 h2 {
-  color:#A0522D;
+  color:#42413f;
+}
+
+h5{
+  color:rgb(61, 163, 51);
 }
 
 .sansita{
