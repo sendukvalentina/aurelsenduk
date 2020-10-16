@@ -90,3 +90,8 @@ a:hover{
 .bootstrap-link:hover{
   font-size: larger;
 }
+
+/* Jika ukuran layar 480px atau kurang */
+@media screen and (max-width: 480px) {
+  #header{ height: auto; } #sidebar{ display: none; }
+}
