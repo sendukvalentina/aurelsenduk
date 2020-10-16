@@ -50,7 +50,7 @@ body{
 /* Mengatur background jumbotron */
 .jumbotron {
   padding-top: 20vh;
-  background-image: url('leaves2_pixabay.PNG');
+  background-image: url('../leaves2_pixabay.PNG');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
